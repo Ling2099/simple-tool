@@ -113,6 +113,14 @@
 		</profile>
 	</profiles>
 
+	<dependencies>
+		<dependency>
+			<groupId>cn.hutool</groupId>
+			<artifactId>hutool-all</artifactId>
+			<version>5.5.9</version>
+		</dependency>
+	</dependencies>
+
 	<build>
 		<finalName>simple-tool</finalName>
 		<plugins>
