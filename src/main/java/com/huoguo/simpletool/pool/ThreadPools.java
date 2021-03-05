@@ -77,7 +77,7 @@ public class ThreadPools {
     /**
      * 执行线程（不带返回值的）
      *
-     * @param runnable
+     * @param runnable  Runnable
      * @param coreSize  核心线程数
      * @param keepLive  空闲线程存活时长
      * @param queueSize 最大线程数
@@ -94,7 +94,7 @@ public class ThreadPools {
      *
      * @param task 线程任务
      * @param <T>  该参数泛型
-     * @return Future<T>
+     * @return Future T
      */
     public static <T> Future<T> submit(Callable<T> task) {
         if (task == null) {
@@ -111,7 +111,7 @@ public class ThreadPools {
      * @param keepLive  空闲线程存活时长
      * @param queueSize 最大线程数
      * @param <T>       该参数泛型
-     * @return Future<T>
+     * @return Future T
      */
     public static <T> Future<T> submit(Callable<T> task, int coreSize, int keepLive, int queueSize) {
         if (task == null) {
