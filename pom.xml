@@ -11,7 +11,7 @@
 
 	<groupId>com.github.Ling2099</groupId>
 	<artifactId>simple-tool</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 	<name>simple-tool</name>
 	<url>https://github.com/Ling2099/simple-tool</url>
@@ -119,6 +119,19 @@
 			<artifactId>hutool-all</artifactId>
 			<version>5.5.9</version>
 		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>5.3.4</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>

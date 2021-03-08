@@ -1,6 +1,5 @@
 package com.huoguo.simpletool.constant;
 
-import java.util.regex.Pattern;
 
 /**
  * 默认常量类
