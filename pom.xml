@@ -11,7 +11,7 @@
 
 	<groupId>com.github.Ling2099</groupId>
 	<artifactId>simple-tool</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<packaging>jar</packaging>
 	<name>simple-tool</name>
 	<url>https://github.com/Ling2099/simple-tool</url>
@@ -132,6 +132,11 @@
 			<version>5.3.4</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>5.3.3</version>
+		</dependency>
 	</dependencies>
 
 	<build>
